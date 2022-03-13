@@ -1,15 +1,16 @@
 import "dart:io";
 
 
+// s3 tests.
 void main() {
-  List<int> numberStore = [];
+  /*List<int> numberStore = [];
   bool isStarted = false;
   print("enter a number");
 
   while(true) {
     String input = stdin.readLineSync();
 
-    if(input.contains(RegExp(r'[0-9]') )) {
+    if(input.contains(RegExp(r'[0-9]'))) {
       numberStore.add(int.parse(input));
       numberStore.sort();
       print(numberStore);
@@ -30,6 +31,16 @@ void main() {
 
     }
 
+  }*/
+
+
+  // s3 test v2.
+  List numberStore = ["a", "v", "t", "r"];
+
+  for(String i in numberStore) {
+    print(i);
   }
+
+
 
 }

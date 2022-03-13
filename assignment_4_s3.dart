@@ -9,7 +9,7 @@ void main() {
   while(true) {
     String input = stdin.readLineSync();
 
-    if(input.contains(RegExp(r'[0-9]') )) {
+    if(input.contains(RegExp(r'[0-9]'))) {
       numberStore.add(int.parse(input));
       numberStore.sort();
       print(numberStore);
