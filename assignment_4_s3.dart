@@ -2,9 +2,11 @@ import "dart:io";
 
 // s3. not done!
 void main() {
-  List<int> numberStore = [];
+  List<double> numberStore = [];
   bool isStarted = false;
   print("Enter a number and press enter/return:");
+  print("To stop, press enter/return without typing anything:");
+  print("----------");
 
   while(true) {
     String input = stdin.readLineSync();
@@ -16,7 +18,7 @@ void main() {
       }
 
     }else if(input.contains(RegExp(r'[0-9]'))) {
-      numberStore.add(int.parse(input));
+      numberStore.add(double.parse(input));
       numberStore.sort();
       print(numberStore);
       isStarted = true;

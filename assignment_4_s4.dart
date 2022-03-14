@@ -4,7 +4,9 @@ import "dart:io";
 void main() {
   List<String> listOfStrings = [];
   bool isStarted = false;
-  print("Enter a number or letter and press enter/return:");
+  print("Enter a number or letter and press enter/return");
+  print("To stop, press enter/return without typing anything.");
+  print("----------");
 
   while(true) {
     String input = stdin.readLineSync();
