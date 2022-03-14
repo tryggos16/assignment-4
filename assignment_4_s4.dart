@@ -1,9 +1,10 @@
 import "dart:io";
 
+// s4. not done!
 void main() {
   List<String> listOfStrings = [];
   bool isStarted = false;
-  print("enter a num or letter:");
+  print("Enter a number or letter and press enter/return:");
 
   while(true) {
     String input = stdin.readLineSync();
@@ -22,7 +23,9 @@ void main() {
 
     }else {
       print("you must give an input!");
+
     }
 
   }
+
 }
