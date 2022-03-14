@@ -1,6 +1,6 @@
 import "dart:io";
 
-// s3. not done!
+// s3. done
 void main() {
   List<double> numberStore = [];
   bool isStarted = false;

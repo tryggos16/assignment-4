@@ -1,6 +1,6 @@
 import "dart:io";
 
-// s4. not done!
+// s4. done
 void main() {
   List<String> listOfStrings = [];
   bool isStarted = false;
