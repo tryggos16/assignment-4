@@ -18,7 +18,10 @@ void main() {
 
     }else if(isStarted == true && input.isEmpty == true) {
       print("----------");
+      print("your input");
       print(listOfStrings);
+      print("");
+      print("reversed");
       print(listOfStrings.reversed);
       print("----------");
       break;
